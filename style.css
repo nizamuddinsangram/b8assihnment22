@@ -559,9 +559,29 @@ justify-content: center;
 
 } 
 
+.button-section{
+  
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ width: 100%;
 
 
+
+}
+.button-container {
+  display: inline-flex;
+  align-items: center;
+  background-color: #FFF;
+  border-radius:50px;
+  width: 160px;
+
+ 
+}
 
 
 
   }
+  /* updaTED */
